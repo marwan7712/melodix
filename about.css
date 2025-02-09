@@ -1,0 +1,269 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.back{
+    background-image: url(Concert.png);
+    height: 650px;
+    background-size: cover;
+}
+ul{
+    float: right;
+    list-style: none
+}
+li{
+    float: left;
+    padding: 15px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family:fantasy;
+    margin-right: 25px;
+}
+li:hover{
+    color: #000000;
+}
+.logo img{
+    width:70px ;
+    height:70px;
+    position: relative;
+    left:30px;
+    top: 20px;
+    float: left;
+}
+.logo img:hover{
+    transform: scale(0.9);
+}
+a {
+    text-decoration: none;
+    color:rgb(255, 255, 255) ;
+}
+li.about{
+    color: #000000;
+}
+.con{
+    text-align: center;
+    position: absolute;
+    margin-top:-45%;
+    right:35%;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 4px;
+    
+}
+.con p{
+    font-size: 23px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50%;
+    margin-left: 490px;
+    position: relative;
+    top: -10px;
+    letter-spacing: 1px;
+    float: left;
+}
+.im img{
+    width: 290px;
+    height:280px;
+    margin-right: 230px;
+    margin-top: -525px;
+    float: right;
+    border-radius: 15%;
+}
+.im img:hover{
+    transform: translateY(-10px);
+}
+.im1 img{
+    width: 290px;
+    height:280px;
+    margin-right: 15px;
+    margin-top: -290px;
+    float: right;
+    border-radius: 15%;
+}
+.im1 img:hover{
+    transform: translateY(-15px);
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .back {
+        height: 650px;
+    }
+
+
+    .con {
+        font-size: 14px;
+        margin-left:10% ;
+        position: relative;
+        top: -498px;
+    }
+
+    .con p {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        float: none;
+    }
+
+    .im img, .im1 img {
+        width: 200px;
+        height: 200px;
+        margin-right: 10px;
+        margin-top: -45%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .back {
+        height: 400px;
+    }
+
+
+    .con {
+        font-size: 20px;
+        margin-top: -%;
+        right: 10%;
+    }
+
+    .con p {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 18px;
+        float: none;
+    }
+
+    .im img, .im1 img {
+        width: 150px;
+        height: 150px;
+        margin: 10px auto;
+        display: flex;
+        float: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .back {
+        height: 700px;
+        margin-top:-19px;
+    }
+    .text1 {
+        font-size: 30px;
+    }
+    .text2 {
+        font-size: 25px;
+    }
+    li {
+        font-size: 25px;
+    }
+    .con{
+        font-size: 25px;
+        ;
+    }
+}
+@media (max-width: 768px) {
+    ul {
+        float: none;
+        text-align: center;
+        padding-top: 10px;
+    }
+    li {
+        float: none;
+        display: inline-block;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .container {
+        top: 55%;
+    }
+    .text1 {
+        font-size: 25px;
+    }
+    .text2 {
+        font-size: 20px;
+    }
+    .logo img {
+        width: 35px;
+        height: 35px;
+        margin-top: -75px;
+    }
+}
+@media (max-width: 480px) {
+    .back {
+        height: 400px;
+    }
+    .text1 {
+        font-size: 20px;
+    }
+    .text2 {
+        font-size: 18px;
+    }
+    li {
+        font-size: 18px;
+        padding: 5px;
+    }
+    button {
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+    .logo img {
+        width: 40px;
+        height: 40px;
+        left: 10px;
+    }
+}

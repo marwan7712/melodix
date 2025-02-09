@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.back{
+    background-image: url(Blue.jpg);
+    height: 650px;
+    background-size: cover;
+}
+ul{
+    float: right;
+    list-style: none
+}
+li{
+    float: left;
+    padding: 15px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family:fantasy;
+    margin-right: 25px;
+}
+li:hover{
+    color: #000000;
+}
+.logo img{
+    width:70px ;
+    height:70px;
+    position: relative;
+    left:30px;
+    top: 20px;
+    float: left;
+}
+.logo img:hover{
+    transform: scale(0.9);
+}
+a {
+    text-decoration: none;
+    color:rgb(255, 255, 255) ;
+}
+li.music{
+    color: #000;
+}
+.noone h1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: -500px;
+    margin-left: 15px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap:nowrap;
+    gap: 25px;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    flex-direction: row;
+}
+.container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.container h2{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    left: 3px;
+}
+h2:hover{
+    color: #000;
+}
